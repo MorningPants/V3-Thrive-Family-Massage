@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thrive Family Massage</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One:wght@400&amp;family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="canvas">
+      <nav class="mobilenav">
+        <input type="checkbox" id="nav__checkbox" class="nav__checkbox" />
+
+        <label for="nav__checkbox" class="menubox">
+          <h2><a href="/">HOME </a></h2>
+          <input
+            type="checkbox"
+            id="bodywork__checkbox"
+            class="bodywork__checkbox"
+          />
+          <label for="bodywork__checkbox" class="bodywork__toggle">
+            <h2>BODYWORK <i>+</i></h2>
+          </label>
+
+          <div class="bodywork">
+            <h2><a href="/">SERVICES</a></h2>
+            <h2>
+              <a href="/">ABDOMINAL THERAPY</a>
+            </h2>
+            <h2>
+              <a href="/">PREGNANCY MASSAGE</a>
+            </h2>
+            <h2>
+              <a href="/">GIFT CERTIFICATES</a>
+            </h2>
+          </div>
+          <h2><a href="/">BOOK NOW</a></h2>
+          <h2><a href="/">MEET OUR FAMILY</a></h2>
+          <h2><a href="/">CONTACT & INFO</a></h2>
+          <h2>
+            <a href="/">COVID-19 CRISIS PRECAUTIONS</a>
+          </h2>
+
+          <h2 class="menu">MENU</h2>
+        </label>
+      </nav>
+      <div class="spacer"></div>
+      <h1>Thrive Family Massage</h1>
+      <nav class="desktopnav">
+        <h2><a href="/">HOME </a></h2>
+        <label
+        for="bodywork__checkbox__desktop"
+        class="bodywork__toggle__desktop"
+        >
+        <input
+          type="checkbox"
+          id="bodywork__checkbox__desktop"
+          class="bodywork__checkbox"
+        />
+          <h2>BODYWORK <i>+</i></h2>
+
+          <div class="bodywork__desktop">
+            <h2><a href="/">SERVICES</a></h2>
+            <h2>
+              <a href="/">ABDOMINAL THERAPY</a>
+            </h2>
+            <h2>
+              <a href="/">PREGNANCY MASSAGE</a>
+            </h2>
+            <h2>
+              <a href="/">GIFT CERTIFICATES</a>
+            </h2>
+          </div>
+        </label>
+        <h2><a href="/">BOOK NOW</a></h2>
+        <h2><a href="/">MEET OUR FAMILY</a></h2>
+        <h2><a href="/">CONTACT & INFO</a></h2>
+        <h2>
+          <a href="/">COVID-19 CRISIS PRECAUTIONS</a>
+        </h2>
+      </nav>
+
+      <hr />
+      <img
+        src="https://images.squarespace-cdn.com/content/v1/58c706e3cd0f68e12279b0e1/1504409665640-K8H6L0C3K1OWI353BZLH/_DSC0811+%281%29.jpg?format=1000w"
+      />
+      <hr />
+      <h1>Massage for Your Unique Family</h1>
+
+      
+      <div id="mobile-info-bar" class="mobile-info-bar">
+        <a href="mailto:thrivefamilymassage@gmail.com">
+      <div class="mobile-info-button" data-type="contactEmail">
+        <span class="email icon"></span>
+        <span>Email</span>
+      </div>
+    </a>
+    <a href="tel:541-543-1791" id="yui_3_17_2_1_1639888893028_423">
+      <div class="mobile-info-button" data-type="contactPhoneNumber">
+        <span class="call icon"></span>
+        <span>Call</span>
+      </div>
+    </a>
+    <a rel="noopener" target="_blank" href="//maps.google.com?q=Thrive%20Family%20Massage%20LLC%205%20East%2024th%20Avenue%20Eugene%2C%20OR%2C%2097405%20United%20States%20">
+      <div class="mobile-info-button" data-type="location" data-overlay="true">
+        <span class="map icon"></span>
+        <span>Map</span>
+      </div>
+    </a>
+  </div>
+    </div>
+    <script>
+          document.addEventListener('scroll', function(e) {
+  if(window.scrollY !== 0){
+    document.getElementById("mobile-info-bar").classList.add("hide");
+  }
+  if(window.scrollY == 0){
+    document.getElementById("mobile-info-bar").classList.remove("hide");
+    
+  }
+})
+        </script>
+  </body>
+</html>
