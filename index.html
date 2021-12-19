@@ -55,14 +55,14 @@
       <nav class="desktopnav">
         <h2><a href="/">HOME </a></h2>
         <label
-        for="bodywork__checkbox__desktop"
-        class="bodywork__toggle__desktop"
+          for="bodywork__checkbox__desktop"
+          class="bodywork__toggle__desktop"
         >
-        <input
-          type="checkbox"
-          id="bodywork__checkbox__desktop"
-          class="bodywork__checkbox"
-        />
+          <input
+            type="checkbox"
+            id="bodywork__checkbox__desktop"
+            class="bodywork__checkbox"
+          />
           <h2>BODYWORK <i>+</i></h2>
 
           <div class="bodywork__desktop">
@@ -93,38 +93,44 @@
       <hr />
       <h1>Massage for Your Unique Family</h1>
 
-      
       <div id="mobile-info-bar" class="mobile-info-bar">
         <a href="mailto:thrivefamilymassage@gmail.com">
-      <div class="mobile-info-button" data-type="contactEmail">
-        <span class="email icon"></span>
-        <span>Email</span>
+          <div class="mobile-info-button" data-type="contactEmail">
+            <span class="email icon"></span>
+            <span>Email</span>
+          </div>
+        </a>
+        <a href="tel:541-543-1791" id="yui_3_17_2_1_1639888893028_423">
+          <div class="mobile-info-button" data-type="contactPhoneNumber">
+            <span class="call icon"></span>
+            <span>Call</span>
+          </div>
+        </a>
+        <a
+          rel="noopener"
+          target="_blank"
+          href="//maps.google.com?q=Thrive%20Family%20Massage%20LLC%205%20East%2024th%20Avenue%20Eugene%2C%20OR%2C%2097405%20United%20States%20"
+        >
+          <div
+            class="mobile-info-button"
+            data-type="location"
+            data-overlay="true"
+          >
+            <span class="map icon"></span>
+            <span>Map</span>
+          </div>
+        </a>
       </div>
-    </a>
-    <a href="tel:541-543-1791" id="yui_3_17_2_1_1639888893028_423">
-      <div class="mobile-info-button" data-type="contactPhoneNumber">
-        <span class="call icon"></span>
-        <span>Call</span>
-      </div>
-    </a>
-    <a rel="noopener" target="_blank" href="//maps.google.com?q=Thrive%20Family%20Massage%20LLC%205%20East%2024th%20Avenue%20Eugene%2C%20OR%2C%2097405%20United%20States%20">
-      <div class="mobile-info-button" data-type="location" data-overlay="true">
-        <span class="map icon"></span>
-        <span>Map</span>
-      </div>
-    </a>
-  </div>
     </div>
     <script>
-          document.addEventListener('scroll', function(e) {
-  if(window.scrollY !== 0){
-    document.getElementById("mobile-info-bar").classList.add("hide");
-  }
-  if(window.scrollY == 0){
-    document.getElementById("mobile-info-bar").classList.remove("hide");
-    
-  }
-})
-        </script>
+      document.addEventListener("scroll", function (e) {
+        if (window.scrollY !== 0) {
+          document.getElementById("mobile-info-bar").classList.add("hide");
+        }
+        if (window.scrollY == 0) {
+          document.getElementById("mobile-info-bar").classList.remove("hide");
+        }
+      });
+    </script>
   </body>
 </html>
